@@ -1,10 +1,14 @@
+@import url("https://unpkg.com/bootstrap@5.3.1/dist/css/bootstrap.min.css");
+* {
+  font-family: "Times New Roman", Times, serif;
+}
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.inputTable {
+  position: relative;
+  top: 0;
+  left: 50%;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -33,6 +37,6 @@
     transform: rotate(0deg);
   }
   to {
-    transform: rotate(360deg);
+    transform: rotate(180deg);
   }
 }
